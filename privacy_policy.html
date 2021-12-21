@@ -40,7 +40,8 @@ e.g.,it will name the target API(s) and whether you are authorizing “read only
 There are two ways to use these apps without authorizing the inkaverse API Packages: bring your own service account token or configure the package to use an OAuth client of your choice.
 
 Overview of the scopes requested by various AskReddit bot and their rationale:
-
+	YouTube Data API v3 .../auth/youtube.upload - The upload scope is crucial for the application to work,  the videos get auto-uploaded to youtube after the rendering is over
+	with the help of the scope.
  Sharing user data
 
 	The package only communicate with Google APIs. No user data is shared with the owners of the AskReddit bot or any other servers.
